@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: client
-      image: deeplearner507/multi-client
+      image: deeplearner507/multi-worker
       ports:
-        - containerPort: 3000
+        - containerPort: 9999
